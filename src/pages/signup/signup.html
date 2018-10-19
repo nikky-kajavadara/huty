@@ -1,0 +1,42 @@
+<!--
+  Generated template for the SignupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<
+
+
+<<ion-content>
+  <p class="signup-section"  hideBackButton>
+    <ion-img  class="ni-img" src="../../assets/imgs/huty_icon.png"></ion-img>
+
+    <ion-icon name="close" (click)="bakcToPage()" class="ni-close"></ion-icon>
+  </p>
+  <div>
+    <p  class="text"><B>Hi !</B></p>
+    <p  class="text"><B>Inscrivez-vous pour</B></p>
+    <p  class="text"><B>commencer.</B></p>
+ </div>
+  <p class="ni-input">
+    <ion-input  class="ni-placeholder center" type="text" placeholder="Email" value=""></ion-input>
+    <ion-input  class=" ni-placeholder center" type="password" placeholder="Mot de passe"></ion-input>
+  </p>
+  <p class="btnlogin">
+    <button ion-button outline text-uppercase class="button btnsignup center " (click)="goToRegistration()" >Inscription  &nbsp;&nbsp;<ion-icon name="arrow-round-forward"  ></ion-icon></button>
+  </p>
+  
+  <div style="font-size:18px;display:block;">
+    <h2><span  class="line-center ">Continuer avec</span></h2>
+    </div>
+  <p class="btnsignup">
+  <button outline ion-button text-left color="darkblack" class="button btnfb"><ion-icon name="logo-facebook"  ></ion-icon> &nbsp;&nbsp;&nbsp;&nbsp;signup with Facebook</button>
+  </p>
+  <div style="font-size:12px;">
+    <p class="labelblue">Not ready to Sign Up? Explore the app.</p>
+  </div>
+
+  
+
+
+</ion-content>

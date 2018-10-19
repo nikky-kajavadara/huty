@@ -1,0 +1,94 @@
+page-vote {
+    .search-section{
+        float:left;
+        height:50px;
+        width:100%;
+        margin:0px;
+        display:block;
+        position:relative;
+    }
+    .searchbar-md {
+        padding:5%;
+    }
+    .btnred{
+        width: 50%;
+        height: 40px;
+        margin: 0px;
+        padding: 2px;
+        background: #d0021b;
+        margin:35px 25% 5px 25%;
+        
+        }
+        .col{
+            margin:-35px;
+        }
+       
+       .coll {
+            background: #7ed321;
+            margin:4%;
+            border: 1px solid #999;
+            position: relative;
+        }
+        img {
+            margin-top:0px;
+        }
+        .no{
+            position: absolute;
+            top: 2px;
+            left: 5px;
+        }
+        .close{
+            position: absolute;
+            top: 2px;
+            right: 5px;
+            font-size: 20px;
+            font-weight: 600;
+            color: white;
+        }
+        h5{
+            color:white;
+            font-weight:600;
+            margin-top: 0px;
+            text-align:center;
+           
+        }
+        .nom{
+            width:50%;
+            text-align: center;
+           
+        }
+        .count{
+            position: absolute;
+            top: 28px;
+            right: 102px;
+            color: white;
+            font-weight:600;
+        }
+        .pt{
+            position: absolute;
+            top: 69px;
+            right: 90px;
+            color: white;
+            font-weight: 600;
+        }
+        .input-back{
+            margin: 0 5% 5px 5%;
+            width: 90%;
+            padding-left: 10px;
+            padding-top: 1px;
+            border: 1px solid #c9c9c9;
+            border-radius: 5px;
+            padding: 10px;
+
+        }
+        h6{
+            color:$primary1;
+            font-weight:600;
+            margin-top: 0px;
+            text-align:center;
+           
+        }
+        .imgg{
+            margin-top:35px;
+        }
+}

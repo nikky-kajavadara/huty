@@ -1,0 +1,128 @@
+page-signup {
+    p.signup-section{
+        background-position: center;
+        background-size: cover;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 25px;
+        height: 145px;
+        text-align: center;
+    }
+   
+    p.text{
+        text-align: center;
+        font-size: 24px;
+        color:$black;
+        margin: 0px;
+        height:20px;
+        font-size: 16px;
+
+    }
+    .ni-close{
+        color:#999;
+        position:absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 30px;
+    }
+    
+    .placeholder1{
+        margin-top:20px;        
+    }
+    
+      .ni-placeholder .text-input
+      {
+         display: inline-block;
+         border-bottom: 1px solid #999999;
+         width: 100%;
+         height: 45px !important;
+         margin: 8px;                
+     }
+
+.btnsignup{
+    margin-top:25px;
+    height:40px;
+    font-size:16px;
+}
+p.ni-input {
+    padding-left: 10%;
+    padding-right: 13%;
+}
+.button{
+    height: 45px;
+    width: 80%;
+    border-radius: 5px;
+    margin-left:10%;
+    margin-right: 10%;
+
+}
+.btnfb
+{
+    color:#333;
+    border-color: #333;
+    
+}
+.btnfb .button-inner{
+    justify-content: left;
+
+}
+.btnfb .icon{
+    color:#25479b;
+    font-size:38px;
+    margin-right: 45px;
+}
+
+p{
+    text-align:center;
+     margin-top:20px;
+}
+
+.line-center{
+    margin: 0;
+    padding: 5px 10px;
+    background: #fff;
+    display: inline-block;
+    font-size: 16px;
+    color: #999;
+
+}
+h2{
+    
+    text-align:center;
+    position:relative;
+    z-index:2;
+    margin-top: 30px;
+    
+}
+h2:after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    right: 10%;
+    border-top: solid 2px #999;
+    z-index: -1;
+}
+ion-img {
+    display: inline-block !important;
+    min-width: 50% !important;
+    min-height: 145px !important;
+    background: transparent !important;
+    
+}
+.ni-img
+    {
+        
+        width: 60%;
+        margin:0 auto;
+        display:block;
+        position:relative;
+       
+    }
+    
+
+.ni-placeholder input:focus
+{
+    border-bottom: 2px solid green;
+}
+}

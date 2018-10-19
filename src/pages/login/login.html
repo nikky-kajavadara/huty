@@ -1,0 +1,41 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-content>
+    <p class="login-section">
+      <ion-img  class="ni-img" src="../../assets/imgs/huty_icon.png"></ion-img>
+      <ion-icon name="close" class="ni-close" (click)=" bakcToPage()"></ion-icon>
+    </p>
+    <div>
+      <p  class="text"><B>Hi!</B></p>
+      <p  class="text" style="margin-bottom:15px;"><B>Welcome Back</B></p>
+   </div>
+    <p class="input">
+      <ion-input  class="placeholder1 ni-placeholder center" type="text" [(ngModel)]="this.loginemail" placeholder="Email" value=""></ion-input>
+      <ion-input  class="placeholder2 ni-placeholder center" type="password" [(ngModel)]="this.loginpassword" placeholder="Password"></ion-input>
+    </p>
+    <p class="btnlogin">
+      <button ion-button outline text-uppercase  (click)="goToHomePage()" class="button btnlogin center">Connexion &nbsp;&nbsp;<ion-icon name="arrow-round-forward"  ></ion-icon></button>
+    </p>
+    <div class="link">
+      <a href="javascript:void(0)"  (click)="goToEditpwd()" class="labelblue"><b>Mot de passe oublie?</b></a>
+    </div>
+    <div style="font-size:18px;display:block;">
+      <h2><span  class="line-center labelgrey">Connexion</span></h2>
+      </div>
+    <p class="btnlogin">
+    <button ion-button class="button center btnfb"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</button>
+    </p>
+    <div style="font-size:12px;">
+      <p class="labelblue">Not ready to Sign Up? Explore the app.</p>
+    </div>
+
+    
+
+ 
+</ion-content>
+  

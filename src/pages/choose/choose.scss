@@ -1,0 +1,90 @@
+page-choose {
+    margin-bottom: 0px;
+    .content-section{
+        background:$grey1;
+        padding: 10px;
+        height: auto;
+        min-height: 413px;
+        margin: 10px;
+        
+    }
+   
+        .button-section{
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        .label{
+        
+            margin: 0px;
+            padding:10px;
+            font-size:16px;
+            
+        }
+        .btngreen{
+            width:45%;
+            height:45px;
+            margin:0px;
+            padding:2px;
+            margin-left:5px;
+            background:$green;
+            font-size:16px;
+        }
+        .item-md.item-block .item-inner {
+            padding-right: 0px;
+            border-bottom: 0px;
+        }
+        .item-block {
+            width:53%;
+            padding:0px;
+            float:left;
+        }
+        .button-section2{
+           
+            margin-top: 10px;
+        }
+        .label2{
+            font-size: 15px;
+        }
+        .btnred{
+            width: 50%;
+            height: 40px;
+            margin: 0px;
+            padding: 2px;
+            background: #d0021b;
+            margin: 10px 25% 10px 25%;
+            
+            }
+            h6{
+                color:$primary1;
+                font-weight:600;
+                margin-top: 0px;
+                text-align:center;
+               
+            }
+            .col{
+                background:$green;
+                margin: 3px;
+                border:1px solid #999;
+                position:relative;
+            }
+            img {
+                margin-top: 15px;
+               
+            }
+            .no{
+                position: absolute;
+                top: -14px;
+                left: 5px;
+            }
+            .close{
+                position: absolute;
+                top: 2px;
+                right: 5px;
+                font-size: 20px;
+                font-weight: 600;
+                color: white;
+            }
+}

@@ -1,0 +1,63 @@
+page-editpwd {
+    .main-container{
+        height:50px;
+        position:relative;
+    }
+    p.text{
+        text-align: center;
+        color:$black;
+        margin: 0px;
+        font-size: 16px;
+        margin-top:65px;
+        margin-bottom:20px;
+
+    }
+    .placeholder-container{
+        
+        height: 135px;
+        margin: 0px;
+    }
+    .close{
+        color:$grey1;
+        position:absolute;
+        right: 20px;
+        top:-50px;
+        font-size: 30px;
+    }
+    .placeholder1{
+       
+        border-radius: 5px 5px 0px 0px;
+    }
+    .placeholder3{
+        border-radius: 0px 0px 5px 5px;
+     }
+     .ni-placeholder {
+        display:inline-block;
+        border: 1px solid #999999;
+        width:80%;
+        margin-left:10%;
+        margin-right:10%;
+        height:45px !important;
+        padding-left:10px;
+        
+    }
+    .borderup{
+        border-top:unset !important;
+
+    }
+    .btnvalidate{
+        font-size:16px;
+        margin-top: 195px;
+       
+    }
+
+
+    p.text2{
+        text-align: center;
+        color:$grey1;
+        margin-top: 20px;
+        font-size: 9px; 
+    }
+  
+    
+}

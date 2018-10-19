@@ -1,0 +1,175 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.labelblue{
+    color:$primary1;
+    
+}
+.labelgreen{
+    color:$green;
+    
+}
+.labelblack{
+    color:$black;
+    
+}
+.labelgrey{
+    color:$grey1;
+}
+.labelwhite{
+    color:$white;
+}
+
+
+    ion-img.img-loaded img {
+        display: unset !important;
+    }
+    
+    
+    .center
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+   
+}
+ .ni-close{
+    color:$grey1;
+    position:absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 30px;
+}
+.button{
+    height: 45px;
+    width: 80%;
+    border-radius: 5px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+.button-md{
+    box-shadow:none;
+}
+/*header footer*/
+.toolbar-title-md {
+    font-size: 30px;
+  
+    color: #fff;
+}
+
+.toolbar-background-md {
+    border-color:$primary1;
+    background:$primary1;;
+}
+.toolbar-title-md {
+    font-size:22px;
+    color: #fff;
+    text-align: center;
+}
+.header{
+    height:56px;
+}
+.back{
+    color: #fff;
+    font-size: 39px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.setting{
+    color: #fff;
+
+    font-size: 38px;
+    
+    position: absolute;
+    
+    top: 10px;
+    
+    right: 19px;
+
+}
+.textred{
+    color: red;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.textblue{
+    color:$primary1;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.textgray{
+    color:#666;
+    font-weight: normal;
+    font-size: 14px;
+}
+.label{
+    
+    height: 45px;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    text-align:center;
+    color:$white;
+    background:$primary1;
+    font-size: 21px;
+    font-weight: 600;
+    margin:0px;
+    padding:2px;
+
+}
+
+.btn{
+    width:90%;
+    height:45px;
+    margin:0px;
+    padding:2px;
+    background:$primary1;
+   /* border-radius: 0px;*/
+    font-size: 17px;
+    font-weight: 600;
+    margin-left:5%;
+    margin-right:5%;
+}
+.p-text{
+  
+    color:$primary1;
+    font-size:20px;
+    margin: 5% 5% 5% 5%;
+    text-align:center;
+}
+.toolbar-md {
+	padding: 4px;
+	min-height: 45px;
+}
+
+.text-upper
+{
+    text-transform: uppercase;
+}
+.text-lower
+{
+    text-transform: uppercase;
+}
+.text-Capital
+{
+    text-transform: capitalize;
+}

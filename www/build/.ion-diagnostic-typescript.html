@@ -1,0 +1,29 @@
+<div class="ion-diagnostic">
+<div class="ion-diagnostic-masthead" title="typescript error: 2345">
+<div class="ion-diagnostic-title">Typescript Error</div>
+<div class="ion-diagnostic-message" data-error-code="typescript-2345">Argument of type &#039;RequestOptions&#039; is not assignable to parameter of type &#039;{ headers?: HttpHeaders | { [header: string]: string | string[]; }; observe?: &quot;body&quot;; params?: Ht...&#039;.
+  Types of property &#039;headers&#039; are incompatible.
+    Type &#039;Headers&#039; is not assignable to type &#039;HttpHeaders | { [header: string]: string | string[]; }&#039;.
+      Type &#039;Headers&#039; is not assignable to type &#039;{ [header: string]: string | string[]; }&#039;.
+        Index signature is missing in type &#039;Headers&#039;.</div>
+</div>
+<div class="ion-diagnostic-file">
+<div class="ion-diagnostic-file-header" title="/Users/dhruvi/Desktop/huty/src/providers/rest/rest.ts">src/providers/rest/rest.ts</div>
+<div class="ion-diagnostic-blob">
+<table class="ion-diagnostic-table">
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="48"></td>
+<td class="ion-diagnostic-blob-code"><span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> Promise(resolve =&gt; {</td>
+</tr>
+<tr class="ion-diagnostic-error-line">
+<td class="ion-diagnostic-blob-num" data-line-number="49"></td>
+<td class="ion-diagnostic-blob-code">  <span class="hljs-keyword">this</span>.http.post(<span class="hljs-keyword">this</span>.global.apiUrl+<span class="hljs-string">"/login"</span>, body, <span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr">p</span><span class="ion-diagnostics-error-chr">t</span><span class="ion-diagnostics-error-chr">i</span><span class="ion-diagnostics-error-chr">o</span><span class="ion-diagnostics-error-chr">n</span><span class="ion-diagnostics-error-chr">s</span>).subscribe(data =&gt; {</td>
+</tr>
+<tr>
+<td class="ion-diagnostic-blob-num" data-line-number="50"></td>
+<td class="ion-diagnostic-blob-code">    resolve(data);</td>
+</tr>
+</table>
+</div>
+</div>
+</div>

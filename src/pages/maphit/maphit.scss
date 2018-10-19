@@ -1,0 +1,112 @@
+page-maphit {
+    #map {
+        height: 100%;
+    }
+    .map{
+        //background: url(../assets/imgs/map1.png);
+        width:100%;
+        height:100%;
+    }
+.lbl{
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.imgg{
+    
+    width: 37px;
+    margin: 7px 12px 0px 13px;
+}
+.icon1{
+    width: 100%;
+
+float: left;
+
+font-size: 49px;
+
+color: #fff;
+
+margin-top: 0px;
+
+text-align: center;
+  
+}
+.icon2{
+    width: 100%;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 7px;
+    padding-left: 5px;
+    text-align: center;
+}
+.ni-button{
+    height:40px;
+    width: 60%;
+    margin-top:15px;
+   border-radius: unset;
+}
+.search-section{
+    float:left;
+    height:50px;
+    width:100%;
+    margin:0px;
+    display:block;
+    position: relative;
+}
+.ni-img {
+
+    width: 12%;
+    position: absolute;
+    height:30px;
+    right: 8px;
+    top: 8px;
+
+}
+.network-img img{
+    height: 30px;
+    width:auto;
+}
+    ion-img {
+       min-width: 95px;
+       min-height: 50px;
+       background: unset;
+    }
+    .searchbar-md {
+    
+        padding-left:6px;
+    }
+    .alert-md .alert-wrapper {
+        border-radius: 0px !important;
+        max-width: 285px ;
+        -webkit-box-shadow: 0 16px 20px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 16px 20px rgba(0, 0, 0, 0.4);
+        
+      }
+      .alert-md .alert-title {
+        font-size: 28px !important;
+        width: 30%;
+        color: #fff;
+    }
+    .alert-md .alert-head {
+        text-align: left;
+        text-align: start;
+        padding:0px;
+        width: 35%;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+    .myclass{
+        background: url(../assets/imgs/thumbs-up.png);
+        height:30px;
+        width:50px;
+    }
+    .filter-block .col{
+
+        text-align: center;
+        padding: 0px;
+    }
+    .filter-block{padding: 0px;}
+}

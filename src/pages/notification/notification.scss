@@ -1,0 +1,29 @@
+page-notification {
+    .main-container{
+        height: auto;
+        min-height: 388px;
+        padding: 5px;
+        margin: 15px 10px 15px 10px;
+        background-color: $primary1;
+    }
+    .text{
+        color: #fff;
+        font-weight: 600;
+        margin: 0px;
+        padding: 10px;
+        font-size: 18px;
+    }
+    ul.dashed {
+        list-style-type: none;
+      
+      }
+     
+      ul.dashed > li:before {
+        content: "-";
+        text-indent: -5px;
+      }
+      li{
+        line-height: 1.5;
+      }
+   
+}

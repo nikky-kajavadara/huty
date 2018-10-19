@@ -1,0 +1,125 @@
+page-profile {
+    p.profile-section{
+    
+        padding: 0px;
+        margin: 0px;
+        height: 200px;
+        position: relative;
+    }
+    .span{
+        width: 100%;
+        position: relative;
+        height: 200px;
+    }
+     .imgprofile {
+        height:100%;
+        width: 100%;
+        position: relative;
+        }
+     ion-img.img-loaded img {
+            width: 100%;
+            height:100%;
+     }
+     .ni-camera{
+        position: absolute;
+        font-size: 61px;
+        color: #fff;
+        top: 85px;
+        margin-left: -5%;
+        margin-right: 43%;
+    }
+    p.text{
+        color: #fff;
+        margin: 0px;
+        padding: 0px;
+        font-size: 16px;
+        position: absolute;
+        top: 30px;
+        margin-left: 40%;
+        margin-right: 37%;
+    }
+    .checkmark{
+        color: #fff;
+        margin: 0px;
+        font-size: 24px;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+    .back{
+        color: #fff;
+        margin: 0px;
+        font-size: 24px;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+    .item-md{
+        padding-left:0px;
+        font-size:14px;
+        padding-right: 0px;
+    }
+    .text-input-md{
+        padding-left:0px;
+        font-size:14px;
+        padding-right: 0px;
+    }
+    .list-md .item-block  {
+       
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+     .item-input:last-child {
+        border-bottom: 1px solid #dedede;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+    .list-md {
+        margin: 5px 0 0px;
+    }
+    .btnreg{
+     
+        font-size:16px;
+       
+    }
+    .label{
+    height: auto;
+    text-align: left;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 2px;
+}
+.button{
+    margin-top: 10px;
+    float: left;
+}
+
+
+.placeholder-container{
+    width:100%;
+    padding-left:10%;
+    padding-right:13%;       
+    margin: 0px;
+}
+
+  
+ .ni-placeholder .text-input
+ {
+    display: inline-block;
+    border-bottom: 1px solid #999999;
+    width: 100%;
+    height: 45px !important;
+    margin: 8px;                
+}
+
+.ni-placeholder input:focus
+{
+    border-bottom: 2px solid green;
+}
+
+}

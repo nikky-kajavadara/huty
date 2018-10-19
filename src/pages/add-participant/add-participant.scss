@@ -1,0 +1,140 @@
+page-add-participant {
+    
+    .search-section{
+        float:left;
+        height:50px;
+        width:75%;
+        margin:0px;
+        display:block;
+        position:relative;
+    }
+    .ni-img
+        {
+            width: 25%;
+          
+           
+         }
+    .ni-img1 {
+            width: 25%;
+            float: right;
+            position: absolute;
+            top: 12px;
+            right: -6px;
+        }
+    ion-img {
+       min-width: 95px;
+       min-height: 50px;
+       background: unset;
+    }
+    .searchbar-md {
+            padding-left: 17px;
+            padding-top: 20px;
+        }
+    }
+.button-section{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 95px;
+    margin-bottom: 5px;
+}
+.label{
+
+    margin: 0px;
+    padding:10px;
+    
+}
+.btngreen{
+    width:45%;
+    height:45px;
+    margin:0px;
+    padding:2px;
+    margin-left:5px;
+    background:$green;
+   
+
+}
+.item-md.item-block .item-inner {
+    padding-right: 0px;
+    border-bottom: 0px;
+}
+.item-block {
+    width:53%;
+    padding:0px;
+    float:left;
+}
+.button-section2{
+    margin-top:5px;
+  
+    }
+    
+.label2{
+    font-size:17px;
+}
+.ni-textred {
+
+	margin-left: 5%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+.slider-container{
+    height:110px;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    background-color:$grey1;
+    position:relative;
+   
+   
+}
+.ion-slides{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+    .backBtn{
+        position: absolute;
+        left: -10px;
+        top: 32px;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+        border: none;
+        background: transparent;
+        font-size: 25px;
+        color:$primary1;
+}
+ion-slide.swiper-slide {
+    width: 34% !important;
+    
+}
+h6{
+    color:$primary1;
+    font-weight:600;
+    margin-top: 0px;
+   
+}
+.ni-center{
+    float: none;
+
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 5px;
+    display: none;
+ 
+}
+.slide-zoom {
+    height: 70px;
+}
+
+.ni-checkmark {
+	color:$primary1;
+	margin: 0px;
+	font-size: 17px;
+	position: absolute;
+	top: 2px;
+	right: 6px;
+}
+

@@ -1,0 +1,49 @@
+page-credit1 {
+    .cart{
+    
+        color: #fff;
+        font-size: 45px;
+        position: absolute;
+        top: 7px;
+        right: 55px;
+        }
+       
+        .ni-button{
+            height: 43px;
+            width: 47%;
+            margin: 1%;
+            border-radius: 0px;
+            display: inline-block;
+            
+        }
+        .ni-btn{
+            
+            margin-top: 5px;
+        }
+        .btn-container{
+            width: 100%;
+            padding-left: 5%;
+            padding-right: 5%;
+            margin-bottom:20px;
+        
+        }
+        .ni-label {
+            height: 115px;
+            width: 46%;
+            background: #4a90e2;
+            font-size: 15px;
+            font-weight: 600;
+            margin: 6px;
+            padding: 10px;
+            text-align: center;
+            float: left;
+        }
+        .lbl-container{
+            width: 100%;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .p-text{
+            text-align:left;
+        }
+}

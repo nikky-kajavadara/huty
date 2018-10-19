@@ -1,0 +1,42 @@
+page-choosenom {
+    .content-section{
+        background: $grey1;
+        padding: 10px;
+        height: auto;
+        min-height: 365px;
+        margin: 10px;
+        
+    }
+   
+            h6{
+                color:$primary1;
+                font-weight:600;
+                margin-top: 0px;
+                text-align:center;
+               
+            }
+            .col{
+                background:$green;
+                margin: 3px;
+                border:1px solid #999;
+                position:relative;
+            }
+            img {
+                margin-top: 15px;
+               
+            }
+            .no{
+                position: absolute;
+                top: -14px;
+                left: 5px;
+            }
+            .btnred{
+                width: 50%;
+                height: 40px;
+                margin: 0px;
+                padding: 2px;
+                background: #d0021b;
+                margin: 5px 25% 5px 25%;
+                
+                }
+}
